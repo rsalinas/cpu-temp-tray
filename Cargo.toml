@@ -1,0 +1,9 @@
+[package]
+name = "cpu-temp-tray"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gtk = { version = "0.15", features = ["v3_22"] }
+libappindicator = "0.7"
+glib = "0.15"
